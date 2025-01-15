@@ -1,0 +1,7 @@
+linters:
+  enable:
+    - revive
+issues:
+  exclude:
+    - "import .github.com/hashicorp/terraform-plugin-docs/cmd/tfplugindocs. is a program, not an importable package"
+    - "parameter '.+' seems to be unused, consider removing or renaming it as _"
