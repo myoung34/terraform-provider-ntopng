@@ -47,7 +47,7 @@ $ make install
 Then, navigate to the `examples` directory.
 
 ```shell
-$ cd examples
+$ cd _examples
 ```
 
 To run this locally you'll need to add a `~/.terraformrc` file with:
