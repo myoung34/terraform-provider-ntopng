@@ -47,7 +47,7 @@ $ make install
 Then, navigate to the `examples` directory.
 
 ```shell
-$ cd examples
+$ cd _examples
 ```
 
 To run this locally you'll need to add a `~/.terraformrc` file with:
@@ -73,7 +73,7 @@ Run the following command to initialize the workspace and apply the sample confi
 ```shell
 $ rm -rf .terraform .terraform.lock.hcl
 $ terraform init
-$ export NTOPNG_API_KEY="your-api-key"
-$ export NTOPNG_API_SECRET="your-api-secret"
+$ export NTOPNG_USERNAME="your-username"
+$ export NTOPNG_TOKEN="your-token"
 $ terraform plan
 ```
